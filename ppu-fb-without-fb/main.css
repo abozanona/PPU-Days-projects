@@ -1,0 +1,174 @@
+.jumbotron {
+	background-color: #66b3ff;
+	color: #fff;
+	padding: 100px 25px;
+}
+
+.container-fluid {
+	padding: 10px 50px;
+}
+.bg-grey {
+	background-color: #f6f6f6;
+}
+.logo {
+	color: #66b3ff;
+	font-size: 200px;
+	margin-bottom: 20 px ;
+}
+@media screen and (max-width: 768px) {
+	.col-sm-4 {
+		text-align: center;
+		margin: 25px 0;
+	}
+}
+.person {
+	border: 10px solid transparent;
+	margin-bottom: 25px;
+	width: 80%;
+	height: 80%;
+	opacity: 0.7;
+}
+.person:hover {
+	border-color: #f1f1f1;
+}
+
+.head{
+	color: #1f2e2e ;
+	padding-left: 22px ;
+	font-size: 15px ;
+	font-style: italic;
+}
+.paragraph {
+	color: #1f2e2e ;
+	padding-left: 22px ;
+	font-size: 15px ;
+}
+
+.h {
+	text-decoration: line-through;
+}
+
+h3 {
+	padding-bottom: 22px ;
+}
+.video{
+	margin-bottom: 20px;
+	margin-top: 20px;  
+}
+
+.second {
+	margin-top: 10px; 
+	margin-bottom: 10px ;
+}
+/* Remove rounded borders from list */
+.list-group-item:first-child {
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+}
+
+.list-group-item:last-child {
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+/* Remove border and add padding to thumbnails */
+.thumbnail {
+	padding: 0 0 15px 0;
+	border: none;
+	border-radius: 0;
+}
+
+.thumbnail p {
+	margin-top: 15px;
+	color: #555;
+}
+
+/* Black buttons with extra padding and without rounded borders */
+.btn {
+	padding: 10px 20px;
+	background-color: #66b3ff;
+	color: #f1f1f1;
+	border-radius: 0;
+	transition: .2s;
+	border-radius: 12px;
+}
+
+/* On hover, the color of .btn will transition to white with black text */
+.btn:hover, .btn:focus {
+	border: 1px solid #333;
+	background-color: #fff;
+	color: #000;
+}
+
+/* Add a dark background color with a little bit see-through */
+.navbar {
+	margin-bottom: 0;
+	background-color: #66b3ff;
+	border: 0;
+	font-size: 11px !important;
+	letter-spacing: 4px;
+	opacity:0.9;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+	color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+	color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+	color: #fff !important;
+	background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+	color: #fff ;
+	background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+	color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+	background-color: red !important;
+}
+
+footer {
+	background-color: #66b3ff;
+	color: white;
+	padding: 10px;
+}
+
+
+
+/***********************************************/
+.allposts{
+	text-align: right;
+	direction: rtl;
+	background-color: #e9eaed;
+
+}
+.post{
+	margin: 5px;
+	border-right: solid 2px #ccc;
+}
+.comments{
+	padding-right: 53px;
+}
+.singlecomment{
+	border: 1px solid #e5e5e5;
+}

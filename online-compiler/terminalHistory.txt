@@ -1,0 +1,127 @@
+    1  sudo apt-get update 
+    2  sudo apt-get upgrade 
+    3  sudo apt-get install apache2
+    4  sudo apt-get install mysql-server
+    5  sudo apt-get install php5 libapache2-mod-php5
+    6  sudo /etc/init.d/apache2 restart
+    7  php -r 'echo &quot;\n\nYour PHP installation is working fine.\n\n\n&quot;;'
+    8  exit
+    9  sudo /etc/init.d/apache2 restart
+   10  sudo mysql_secure_installation
+   11  mysql -u root -p
+   12  sudo apt-get install phpmyadmin
+   13  sudo service apache2 restart 
+   14  sudo gedit /etc/apache2/apache2.conf
+   15  sudo service apache2 restart 
+   16  exit
+   17  sudo phpmyadmin
+   18  phpmyadmin
+   19  sudo apt-get install lamp-server
+   20  sudo apt-get install lamp-server^
+   21  apache2 apache2-mpm-prefork apache2-utils apache2.2-common libapache2-mod-php5 libapr1 libaprutil1 libdbd-mysql-perl libdbi-perl libnet-daemon-perl libplrpc-perl libpq5 mysql-client-5.5 mysql-common mysql-server mysql-server-5.5 php5-common php5-mysql
+   22  mysql-client-core-5.5 mysql-server-core-5.5
+   23  sudo service apache2 restart
+   24  libapache2-mod-php5
+   25  sudo a2enmod php5
+   26  mysql-server libapache2-mod-auth-mysql php5-mysql
+   27  sudo apt-get install mysql-server
+   28  sudo service mysql restart
+   29  mysql-server libapache2-mod-auth-mysql php5-mysql
+   30  mysql libapache2-mod-auth-mysql php5-mysql
+   31  mysql-server libapache2-mod-auth-mysql php5-mysql
+   32  gksu gedit /etc/apache2/apache2.conf
+   33  sudo gedit /etc/apache2/apache2.conf
+   34  /etc/init.d/apache2 restart
+   35  sudo /etc/init.d/apache2 restart
+   36  sudo gedit /etc/apache2/apache2.conf
+   37  clear
+   38  sudo gedit '/var/www/html/index.html' 
+   39  sudo rm -R '/var/www/html/index.html' 
+   40  cd Desktop
+   41  ls
+   42  mv /turtlebot-web-app
+   43  mv /turtlebot-web-app/ var/www/html
+   44  mv /Destop/turtlebot-web-app/ var/www/html
+   45  mv /home/superuser/Desktop/turtlebot-web-app/ var/www/html
+   46  mv /home/superuser/Desktop/turtlebot-web-app/ home
+   47  cd
+   48  mv /home/superuser/Desktop/turtlebot-web-app/ var/www/html
+   49  mv /home/superuser/Desktop/turtlebot-web-app var/www/html
+   50  sudo mv /home/superuser/Desktop/turtlebot-web-app var/www/html
+   51  sudo mv /home/superuser/Desktop/turtlebot-web-app/ var/www/html
+   52  sudo mv /home/superuser/Desktop/turtlebot-web-app/ var/www/html/
+   53  sudo mv /home/superuser/Desktop/turtlebot-web-app/ 
+   54  sudo mv /home/superuser/Desktop/turtlebot-web-app/ /var/www/html/
+   55  sudo mv /home/superuser/Desktop/turtlebot-server/ /var/www/html/
+   56  mysql -u root -p
+   57  sudo /etc/init.d/apache2 restart
+   58  mysql -u root -p
+   59  gedit  /etc/my.cnf
+   60  wget http://ipinfo.io/ip -qO -
+   61  mysql -u root -p
+   62  sudo rm -r '/var/www/html/turtlebot-server' '/var/www/html/turtlebot-web-app' 
+   63  cd Desktop/
+   64  gcc y.cpp
+   65  sudo apt-get install gcc
+   66  gcc y.cpp
+   67  g++ y.cpp
+   68  sudo apt-get install g++
+   69  g++ y.cpp
+   70  ./a.out 
+   71  g++ y.cpp
+   72  ./a.out 
+   73  g++ y.cpp
+   74  ./a.out 
+   75  gcc y.cpp
+   76  clear
+   77  gcc y.cpp
+   78  cd '/var/www/html' 
+   79  sudo cat gggg>i.php
+   80  sudo cat>i.php
+   81  sudo cat>test.php
+   82  ls -al
+   83  ls -all
+   84  sudo cat>test.php
+   85  sudo apt-get install sublime
+   86  cd '/var/www/html' 
+   87  sudo cat 123>me.php
+   88  sudo ls
+   89  sudo cat 123>me.php
+   90  sudo dpkg -i '/home/superuser/Downloads/sublime-text_build-3103_amd64.deb' 
+   91  sudo subl
+   92  exit
+   93  man g++
+   94  g++ --help
+   95  cd Desktop/
+   96  g++ y.cpp
+   97  man chown
+   98  sudo chown www-data:www-data '/var/www/html' 
+   99  cd '/var/www/html' 
+  100  ls -all
+  101  sudo chown -R www-data:www-data '/var/www/html' 
+  102  ls -all
+  103  sudo chown -R www-data:www-data '/var/www' 
+  104  ls -all
+  105  sudo chown -R www-data:www-data '/var/www' 
+  106  ls -all
+  107  sudo chown -vR www-data:www-data '/var/www' 
+  108  ls -all
+  109  sudo addgroup site1
+  110  sudo adduser user1 site1
+  111  sudo adduser www:data site1
+  112  ls -all
+  113  sudo adduser www-data site1
+  114  sudo chown -vR :site1 /var/www/
+  115  sudo chmod -vR g+w /var/www/
+  116  ls -ld /var/www
+  117  su - www-data
+  118  sudo chown yourusername:www-data '/var/www' 
+  119  sudo chown superuser:www-data '/var/www' 
+  120  sudo su www-data
+  121  /etc/passwd
+  122  sudo /etc/passwd
+  123  sudo gedit /etc/passwd
+  124  sudo su www-data
+  125  exit
+  126  history
+

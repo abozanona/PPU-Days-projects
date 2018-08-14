@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Typing speed test</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <!--link rel="stylesheet" href="css/rtl.css"-->
+    <link rel="stylesheet" href="css/cc.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="blackScreen">
+        <div class="results">
+            <div class="row">
+                <div class="col-md-4 statements">
+                    <h5> Your Speed : <span id="speed"></span></h5>
+                    <h5> Your Accuracy : <span id="Accuracy"></span></h5>
+                    <h5> Correct Hits : <span id="CHits"></span></h5>
+                    <h5> Wrong Hits : <span id="WHits"></span></h5>
+                    <h5> Total Expected Hits: <span id="EHits"></span></h5>
+                    <div class="row">
+                        <div class="col-md-12 statements">
+                        <img id="medalImage" src="http://icons.iconarchive.com/icons/umar123/build/48/0041-Medal-Gold-icon.png" height="150" width="150"  alt = "Your Medal"> 
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-md-1">
+                        <img src="http://icons.iconarchive.com/icons/umar123/build/48/0041-Medal-Gold-icon.png" height="35" width="35"          alt = "Gold Medal" class= "images"> 
+                        <img src="http://icons.iconarchive.com/icons/umar123/build/48/0039-Medal-Bronze-icon.png" height="35" width="35"        alt = "Bronze Medal" class= "images"> 
+                        <img src="http://icons.iconarchive.com/icons/umar123/build/48/0040-Medal-Silver-icon.png" height="35" width="35"        alt = "Silver Medal" class= "images"> 
+                    </div>
+                    <div class="col-md-6 statements">
+                        <h6> Congratulations Mr.fast! Your Speed is Wonderful ,training for more .  :</h6>
+                        <h6> Still Good ! But you need to practice it faster . </h6>
+                        <h6> Do it better againe , practice more and more for the Golden one .</h6>
+                    </div>
+            </div>
+            <div class="row">
+                <div id="ratingbox" class="col-md-6">
+                     Rating Box
+                </div>
+                <div class="row">
+                    <div class="col-md-12 buttonsDiv">
+                        <p>
+                            <button id="nothanks" type="button" class="btn btn-primary btn-sm">No Thanks</button>
+                            <button id="nextlevel" type="button" class="btn btn-primary btn-sm">Next Level</button>
+                            <button id="again" type="button" class="btn btn-primary btn-sm">Again</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="contaner">
+        <div class="page-header">
+            <h1> Typing Speed Text <small>- Complete a Typing Test in 60 Seconds ..</small></h1>
+        </div>
+        <div class="row">
+            <div >
+                <h3> <font face="Comic Sans MS"> Welcome to Typing Speed Challenge , Speed your typing up !  </font></h3>   
+            </div>
+            <div class="col-md-1" >
+                <select class="form-control " id="levels" >
+                    <option value="test1" > Beginner </option>
+                    <option value="test2"> Intermediate </option>
+                    <option value="test3"> Advanced  </option>
+                </select>
+            </div>
+            <div class= " col-md-1 head" >
+                <h5> OR </h5>
+            </div>
+            <div class="button-green col-md-1" >
+               <span class="btn btn-default btn-file">
+                 Try Custom Text <input id="uploadbutton" type="file">
+                </span>
+            </div>    
+        </div>
+        <div class="row" >
+            <div class="col-md-8">
+                <div class="col-md-12 wordsarenadiv">
+                    <pre class="wordsarena">Lets do the ABCs</pre>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 fourbuttons ">
+                        <a id="startgame" class="btn btn-primary btn-lg" role="button">Start now</a>
+                        <a id="Reset" class="btn btn-primary btn-lg" role="button" >Reset</a>
+                        <a id="pause" class="btn btn-primary btn-lg" role="button">Pause</a>
+                        <a id="stop" class="btn btn-primary btn-lg" role="button">Stop</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-3 paragraph">
+                <a id="showTips" class="btn btn-primary btn-lg " role="button" >Tips Before Start</a>
+                <div id="mytips" style="display: none;">
+                    <p>
+                    <font size="6" color="#4A4242" face="Comic Sans MS"> What is this ?</font> 
+                    </p>
+                    <div class="col-md-1 ">
+                        <img src="https://cdn0.iconfinder.com/data/icons/ikooni-outline-free-basic/128/free-05-24.png" class="ticks">
+                        <img src="https://cdn0.iconfinder.com/data/icons/ikooni-outline-free-basic/128/free-05-24.png" class="ticks">
+                        <img src="https://cdn0.iconfinder.com/data/icons/ikooni-outline-free-basic/128/free-05-24.png" class="ticks">
+                        <img src="https://cdn0.iconfinder.com/data/icons/ikooni-outline-free-basic/128/free-05-24.png" class="ticks">
+                    </div>
+                    <div>
+                        <p>
+                            &nbsp; <b>How fast are your fingers?</b> Do the typing test to find out! At the end, you'll get your typing speed in WPM. 
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                        &nbsp; <b>What is WPM ?</b> WPM is an abbreviation of Words-Per-Minute.For speed to be standered comparable .
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                       &nbsp; <b>What is Accuracy percentage ?</b> the number of words you got right compared to how many you typed.
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                        &nbsp; <b>Start now, in order to get a GOLD medal !</b>
+                        </p>
+                    </div>
+                </div>
+                <div class="item html">
+                    <h2 class="clockh2">0</h2>
+                    <svg width="160" height="160" xmlns="http://www.w3.org/2000/svg">
+                        <g>
+                        <title>Layer 1</title>
+                        <circle id="circle" class="circle_animation" r="69.85699" cy="81" cx="81" stroke-width="8" stroke="#6fdb6f" fill="none"/>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+   
+    <script src="js/cc.js"></script>
+</body>
+</html>

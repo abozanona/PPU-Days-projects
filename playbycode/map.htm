@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>build a map</title>
+</head>
+<body>
+	<div class="thegame">
+		<div>
+			<input id="height" placeholder="height" type="number">
+			<input id="width" placeholder="width" type="number">
+		</div>
+		<div>
+			<img src="img/grass.jpg" height="60" width="60" onclick="changesymbol('0')"/>
+			<img src="img/block.jpg" height="60" width="60" onclick="changesymbol('b')"/>
+			<img src="img/coin.jpg"  height="60" width="60" onclick="changesymbol('c')"/>
+		</div>
+		<div>
+			<input id="symbol" placeholder="symbol" disabled="true">
+		</div>
+		<div>
+			<button onclick="init()">reset</button>
+			<button onclick="mapandfunction()">map and function</button>
+		</div>
+		<div>
+			<canvas id="tttCanvas" style="border:solid 1px #000">
+				Your browser doesn't support canvas.
+			</canvas>
+		</div>
+		<div>
+			<textarea id="tocode" disabled="true" cols="50" rows="20"></textarea>
+		</div>
+	</div>
+	<script src="js/map.js"></script>
+</body>
+</html>

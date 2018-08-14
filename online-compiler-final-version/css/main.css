@@ -1,0 +1,8 @@
+.code-input-output>div .fullscreen{
+	min-height: 200px;
+	width: 100%;
+}
+.code-input-output textarea {
+    resize: none;
+    overflow: scroll;
+}

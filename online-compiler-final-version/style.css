@@ -1,0 +1,46 @@
+body{
+	background-color:#E0E0E0;
+
+}
+
+.main{
+margin: 0px 200px 0px 200px;
+background-color:white;
+font-size:20px;
+}
+
+.head{
+	background-image: url('aa1.png');
+	padding:13px 0px 70px 30px;
+	font-size:40px;
+	font-weight: bold;"
+}
+
+.line{
+	background-color:#000000;
+	padding:0px 0px 30px 0px;"
+}
+
+.content{
+	padding: 25px 200px 100px 200px;
+	min-height: 600px;
+	
+}
+
+
+.butt_sub{
+font-size:15px;
+padding:2px 30px;
+border: 5px outset;
+font-size:20px;
+}
+
+.left-div
+{
+	float: left;
+}
+
+.right-div
+{
+	float: right;
+}
